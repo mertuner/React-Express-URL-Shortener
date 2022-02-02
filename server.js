@@ -10,10 +10,17 @@ app.use(cors())
 
 app.use(bodyParser.json({ limit: '50mb' }));
 
+// if (process.env.NODE_ENV === "production") {
+//     app.use(express.static("client/build"));
+// }
 
+app.use(express.static("client/build"));
 app.use(redirectRoutes);
+app.use(handlingRoutes);
 
-app.use(handlingRoutes)
+
+
+
 
 
 
