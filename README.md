@@ -3,4 +3,4 @@
 
 ## Live
 
-[live](brif.live)
+[brif.live](https://brif.live)
