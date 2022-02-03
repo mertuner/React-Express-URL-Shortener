@@ -2,8 +2,8 @@ const { _hash } = require('../utils/hash');
 const fetch = require('node-fetch');
 const validUrl = require('valid-url');
 
-const baseUrl = 'localhost:5009/';
-const registeredBaseUrl = 'http://localhost:5009/';
+const baseUrl = 'brif.live/';
+const registeredBaseUrl = 'http://www.brif.live/';
 
 let iconBase = 'https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url='
 
