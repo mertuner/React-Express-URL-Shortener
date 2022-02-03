@@ -3,13 +3,9 @@ const fetch = require('node-fetch');
 const validUrl = require('valid-url');
 
 
-const baseUrl = 'localhost:5009/'
-
-
 
 exports.handleRedirect = async (req, res, next) => {
     try {
-        console.log('handling');
         let parsedUrl = req.url;
         const response = await fetch(`https://urlshortener-4f4e9-default-rtdb.firebaseio.com/data/${parsedUrl}.json`);
         const data = await response.json();
