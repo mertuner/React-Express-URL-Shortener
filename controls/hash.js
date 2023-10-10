@@ -4,7 +4,7 @@ const validUrl = require('valid-url');
 
 const baseUrl = 'brif.live/';
 const localBaseUrl = 'localhost:5009/'
-const registeredBaseUrl = 'brif.live/';
+const registeredBaseUrl = 'https://www.brif.live/';
 const localRegisteredBaseUrl = 'http://localhost:5009/'
 
 let iconBase = 'https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url='
