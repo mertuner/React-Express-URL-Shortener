@@ -2,9 +2,9 @@ const { _hash } = require('../utils/hash');
 const fetch = require('node-fetch');
 const validUrl = require('valid-url');
 
-const baseUrl = 'brif.live/';
+const baseUrl = 'snpy.live/';
 const localBaseUrl = 'localhost:5009/'
-const registeredBaseUrl = 'https://www.brif.live/';
+const registeredBaseUrl = 'https://www.snpy.live/';
 const localRegisteredBaseUrl = 'http://localhost:5009/'
 
 let iconBase = 'https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url='
