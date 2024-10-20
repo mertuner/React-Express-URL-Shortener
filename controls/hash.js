@@ -3,9 +3,9 @@ const fetch = require('node-fetch');
 const validUrl = require('valid-url');
 
 const baseUrl = 'snpy.live/';
-const localBaseUrl = 'localhost:5009/'
+const localBaseUrl = 'localhost:3000/'
 const registeredBaseUrl = 'https://www.snpy.live/';
-const localRegisteredBaseUrl = 'http://localhost:5009/'
+const localRegisteredBaseUrl = 'http://localhost:3000/'
 
 let iconBase = 'https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url='
 
@@ -14,6 +14,7 @@ let iconBase = 'https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fall
 
 exports.handleHash = async (req, res, next) => {
     try {
+        console.log('hit');
         let originalUrl = req.body.url;
         let hash = _hash(originalUrl);
         // hash result should be encoded (base62)
