@@ -19,13 +19,8 @@ app.use(express.static(path.join(__dirname, './client/build')));
 app.use(redirectRoutes);
 app.use(handlingRoutes);
 
-
-
-
-
-
-
-app.listen(process.env.PORT || 3000, () => {
-    console.log(`Server is up and running on PORT ${process.env.PORT || 3000}`);
+app.listen(process.env.PORT || 5009, () => {
+    console.log(`Server is up and running on PORT ${process.env.PORT || 5009}`);
 });
+
 

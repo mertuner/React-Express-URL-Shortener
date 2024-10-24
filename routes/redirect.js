@@ -1,3 +1,4 @@
+console.log('redirect loaded')
 const redirectController = require('../controls/redirect');
 const router = require('express').Router();
 
